@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.agents import create_csv_agent
+from langchain_experimental.agents.agent_toolkits import create_csv_agent
 from langchain.llms import OpenAI
 
 def main():
